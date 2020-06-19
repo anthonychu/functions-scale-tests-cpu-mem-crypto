@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "mySbMsg",
+      "type": "serviceBusTrigger",
+      "direction": "in",
+      "topicName": "mem",
+      "subscriptionName": "requests",
+      "connection": "scaletests_SERVICEBUS"
+    }
+  ]
+}
