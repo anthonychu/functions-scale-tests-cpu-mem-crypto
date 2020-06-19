@@ -5,7 +5,4 @@ module.exports = async function(context, mySbMsg) {
     while (Date.now() - startDate <= sec * 1000) {
         count++;
     }
-    if (context) {
-      context.res.status(200).send('result: ' + count);
-    }
 };
