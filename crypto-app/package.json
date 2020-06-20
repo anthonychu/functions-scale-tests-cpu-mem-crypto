@@ -1,5 +1,5 @@
 {
-  "name": "mem-app",
+  "name": "crypto-app",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -7,7 +7,8 @@
     "test": "echo \"No tests yet...\""
   },
   "dependencies": {
-    "applicationinsights": "^1.8.0"
+    "applicationinsights": "^1.8.0",
+    "crypto": "^1.0.1"
   },
   "devDependencies": {}
 }

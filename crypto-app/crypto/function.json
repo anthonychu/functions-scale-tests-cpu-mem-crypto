@@ -5,7 +5,7 @@
       "type": "serviceBusTrigger",
       "direction": "in",
       "topicName": "requests",
-      "subscriptionName": "mem",
+      "subscriptionName": "crypto",
       "connection": "scaletests_SERVICEBUS"
     }
   ]

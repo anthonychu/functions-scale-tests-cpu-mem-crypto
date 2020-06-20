@@ -4,8 +4,8 @@
       "name": "mySbMsg",
       "type": "serviceBusTrigger",
       "direction": "in",
-      "topicName": "cpu",
-      "subscriptionName": "requests",
+      "topicName": "requests",
+      "subscriptionName": "cpu",
       "connection": "scaletests_SERVICEBUS"
     }
   ]
